@@ -83,7 +83,7 @@ class Gaussian(Distribution):
             while line:
                 data_list.append(int(line))
                 line = file.readline()
-        file.clost()
+        file.close()
 
         self.data = data_list
         self.mean = self.calculate_mean()
