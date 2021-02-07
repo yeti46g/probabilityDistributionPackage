@@ -105,6 +105,7 @@ class Gaussian(Distribution):
         plt.title("Histogram of Data")
         plt.xlabel('data')
         plt.ylabel('count')
+	plt.show()
 
     def pdf(self,x):
         """Probability density function calulator for the Gaussian distribution.
